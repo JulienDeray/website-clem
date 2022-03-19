@@ -61,19 +61,19 @@ title = "For Winemakers"
 delay = "0s"
 
 [[params.service.serviceItem.services]]
-service = "Digital Consulting"
+service = "• Digital Consulting"
 
 [[params.service.serviceItem.services]]
-service = "Brand Manager"
+service = "• Brand Manager"
 
 [[params.service.serviceItem.services]]
-service = "External Communication"
+service = "• External Communication"
 
 [[params.service.serviceItem.services]]
-service = "Researching New Sales Opportunities"
+service = "• Researching New Sales Opportunities"
 
 [[params.service.serviceItem.services]]
-service = "Revenue Efficiency"
+service = "• Revenue Efficiency"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -84,16 +84,16 @@ title = "For Restaurants & Wine Shops"
 delay = "0.2s"
 
 [[params.service.serviceItem.services]]
-service = "Digital Consulting"
+service = "• Digital Consulting"
 
 [[params.service.serviceItem.services]]
-service = "Stock Inventory"
+service = "• Stock Inventory"
 
 [[params.service.serviceItem.services]]
-service = "Organising and Hosting events"
+service = "• Organising and Hosting events"
 
 [[params.service.serviceItem.services]]
-service = "Revenue Efficiency"
+service = "• Revenue Efficiency"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -104,10 +104,10 @@ title = "For Private Collectors & Investors"
 delay = "0.4s"
 
 [[params.service.serviceItem.services]]
-service = "Cellar Inventory; buying and sourcing wine"
+service = "• Cellar Inventory; buying and sourcing wine"
 
 [[params.service.serviceItem.services]]
-service = "Manage investment stocks"
+service = "• Manage investment stocks"
 
 [params.contact]
 enable = true

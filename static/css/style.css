@@ -51,6 +51,7 @@ p {
 ul {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 a {
@@ -540,6 +541,10 @@ a:active {
 
 .input-field label {
   color: rgba(237, 28, 36, 0.7);
+}
+
+.contact-box {
+  margin-bottom: 30px;
 }
 
 .form-group .input-field+.input-field {
