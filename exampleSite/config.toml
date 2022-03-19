@@ -21,12 +21,12 @@ contact = "Contact"
 [params.hero]
 enable = true
 bg = "images/header-bg.jpg"
-title = "BRING YOUR PRODUCT TO LIGHT"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+title = "Hi there, I'm Clémence!"
+subtitle = "A wine consultant with over 7 years of industry experience."
 btnText = "Get Started"
 
 # counter
-disableCountdown = false
+disableCountdown = true
 countdownYear = "2022"
 countdownMonth = "12"
 countdownDay = "31"
@@ -34,8 +34,12 @@ countdownDay = "31"
 # About Section
 [params.about]
 enable = true
-heading = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+heading = "Let me introduce myself."
+description = "I’m Clémence and of course, I have a passion for wine. But more than that, I am fond of supporting the businesses that help make wine what it is today. That is why I became a wine consultant; to offer my services to winemakers and purveyors whose adoration of wine rivals my own."
+
+description2 = "Having lived in Paris, London and Lisbon, I’ve seen the wine industry face challenges with the changing times. During my time as a sommelière, wine buyer and account manager, I noticed that those in the wine sector were struggling to keep up with their business's social media and communication needs. With my help, I can fill in the gaps for winemakers and other industry professionals so they can focus on making and distributing wine."
+
+description3 = "I speak English, French and I’m learning Portuguese. Reach out today and let’s get to work :)."
 
 [[params.about.sliderItem]]
 image = "images/about/1.jpg"
@@ -43,96 +47,71 @@ image = "images/about/1.jpg"
 image = "images/about/2.jpg"
 [[params.about.sliderItem]]
 image = "images/about/3.jpg"
-[[params.about.sliderItem]]
-image = "images/about/2.jpg"
 
 
 # Service Section
 [params.service]
 enable = true
-title = "Find Better Solutions Build Better Products"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+title = "My services"
+
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon = "tf-strategy"
-title = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon = "tf-ion-wineglass"
+title = "For Winemakers"
 delay = "0s"
 
+[[params.service.serviceItem.services]]
+service = "Digital Consulting"
+
+[[params.service.serviceItem.services]]
+service = "Brand Manager"
+
+[[params.service.serviceItem.services]]
+service = "External Communication"
+
+[[params.service.serviceItem.services]]
+service = "Researching New Sales Opportunities"
+
+[[params.service.serviceItem.services]]
+service = "Revenue Efficiency"
+
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon = "tf-circle-compass"
-title = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon = "tf-ion-android-restaurant"
+title = "For Restaurants & Wine Shops"
 delay = "0.2s"
 
+[[params.service.serviceItem.services]]
+service = "Digital Consulting"
+
+[[params.service.serviceItem.services]]
+service = "Stock Inventory"
+
+[[params.service.serviceItem.services]]
+service = "Organising and Hosting events"
+
+[[params.service.serviceItem.services]]
+service = "Revenue Efficiency"
+
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon = "tf-anchor2"
-title = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon = "tf-ion-ios-people"
+title = "For Private Collectors & Investors"
 delay = "0.4s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-globe"
-title = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "0.6s"
+[[params.service.serviceItem.services]]
+service = "Cellar Inventory; buying and sourcing wine"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-strategy"
-title = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "0.8s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-circle-compass"
-title = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "1s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-anchor2"
-title = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "1.2s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-globe"
-title = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "1.5s"
-
-
-# Call to Action Section
-[params.cta]
-enable = true
-bg = "images/call-to-action.jpg"
-title = "Subscribe to our mailing list"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+[[params.service.serviceItem.services]]
+service = "Manage investment stocks"
 
 [params.contact]
 enable = true
-title = "Get In Touch"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+title = "Let's talk"
+subtitle = "For all enquiries, please contact me using one of the channel below."

@@ -12,11 +12,17 @@
                     {{ end }}
                 </div>
                 {{ range .Site.Params.service.serviceItem }}
-                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .delay }}">
+                    <div class="col-sm-4 col-md-4 wow fadeInLeft" data-wow-delay="{{ .delay }}">
                         <div class="block">
                             <i class="{{ .icon }}"></i>
                             <h3>{{ .title }}</h3>
-                            <p>{{ .description }}</p>
+                            <p>
+                                {{ range .services }}
+                                    <ul>
+                                        <li>{{ .service }}</li>
+                                    </ul>
+                                {{ end }}
+                            </p>
                         </div>
                     </div>
                 {{ end }}

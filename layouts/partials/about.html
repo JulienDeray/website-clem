@@ -13,6 +13,12 @@
                         {{ with .Site.Params.about.description }}
                             <p>{{ . | markdownify }}</p>
                         {{ end }}
+                        {{ with .Site.Params.about.description2 }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                        {{ with .Site.Params.about.description3 }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
