@@ -1,9 +1,7 @@
-baseURL = "https://demo.gethugothemes.com/infinity/site/"
 languageCode = "en-us"
-title = "Infinity | Comming Soon Hugo Template By Themefisher"
+title = "Clémence | Wine Consultant"
 theme = "infinity-hugo"
 removePathAccents = true
-
 
 # HTML before the closing </head>
 [params]
