@@ -64,13 +64,13 @@ delay = "0s"
 service = "• Digital Consulting"
 
 [[params.service.serviceItem.services]]
-service = "• Brand Manager"
+service = "• Brand Management"
 
 [[params.service.serviceItem.services]]
 service = "• External Communication"
 
 [[params.service.serviceItem.services]]
-service = "• Researching New Sales Opportunities"
+service = "• Prospection and Research"
 
 [[params.service.serviceItem.services]]
 service = "• Revenue Efficiency"
@@ -90,7 +90,7 @@ service = "• Digital Consulting"
 service = "• Stock Inventory"
 
 [[params.service.serviceItem.services]]
-service = "• Organising and Hosting events"
+service = "• Events Hosting and Organisation"
 
 [[params.service.serviceItem.services]]
 service = "• Revenue Efficiency"
@@ -104,10 +104,13 @@ title = "For Private Collectors & Investors"
 delay = "0.4s"
 
 [[params.service.serviceItem.services]]
-service = "• Cellar Inventory; buying and sourcing wine"
+service = "• Cellar Inventory"
 
 [[params.service.serviceItem.services]]
-service = "• Manage investment stocks"
+service = "• Wine Sourcing and Buying"
+
+[[params.service.serviceItem.services]]
+service = "• Investment Stocks Management"
 
 [params.contact]
 enable = true
